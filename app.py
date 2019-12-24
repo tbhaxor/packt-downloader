@@ -14,6 +14,7 @@ from argparse import ArgumentParser, RawDescriptionHelpFormatter
 from pathlib import Path
 from colorama import Fore, Style
 import sys
+from getpass import getpass
 
 parser = ArgumentParser(
     description="A simple packt subscribed videos downloader")
@@ -24,7 +25,7 @@ parser.add_argument("--email",
                     metavar="EMAIL")
 parser.add_argument("--password",
                     help="your password to login",
-                    required=True,
+                    default=None,
                     metavar="PASSWORD")
 parser.add_argument("--no-headless",
                     default=False,
@@ -70,7 +71,13 @@ try:
         "/html/body/div[2]/div[2]/div[2]/div/div[2]/div/form/button[1]")
 
     E.send_keys(args.email)
-    P.send_keys(args.password)
+    if not args.password:
+        password = getpass("{}[?]{} Enter Your Login Password: ".format(
+            Fore.LIGHTYELLOW_EX + Style.BRIGHT, Style.RESET_ALL))
+    else:
+        password = args.password
+
+    P.send_keys(password)
     S.click()
 
     try:
