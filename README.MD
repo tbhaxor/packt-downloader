@@ -17,7 +17,7 @@ $ pip install -r requirements.txt
 ## Help and Usage
 
 ```
-usage: app.py [-h] --email EMAIL --password PASSWORD [--no-headless]
+usage: app.py [-h] --email EMAIL [--password PASSWORD] [--no-headless]
               [--download-base-dir PATH]
 
 A simple packt subscribed videos downloader
