@@ -1,0 +1,4 @@
+selenium
+argparse
+tqdm
+colorama
