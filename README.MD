@@ -43,5 +43,5 @@ Feel free to add new features to this repository.
 
 Email: tbhaxor@gmail.com <br>
 LinkedIn: https://linkedin.com/in/gurkirat--singh/ <br>
-Instagram: [@bootagorira](https://www.instagram.com/bootagorira/) <br>
+Instagram: [@\_tbhaxor_](https://www.instagram.com/_tbhaxor_/) <br>
 Twitter: [@tbhaxor](https://twitter.com/tbhaxor)
