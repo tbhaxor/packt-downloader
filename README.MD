@@ -1,6 +1,6 @@
 # Packt Downloader
 
-**NOTE: I can't make any updates to this, because I don't have an account of Packet Pub. If you face any problem, then find the solution on your own and if you want it to be fixed for other users, open a pull request regarding the same.**
+**NOTE: I can't make any updates to this, because I don't have an account of Packt Pub. If you face any problem, then find the solution on your own and if you want it to be fixed for other users, open a pull request regarding the same.**
 
 A complete Packt Video Downloader suite. The packt pub provides a free trial subscription, you can use this program to download all the files of vides topicwise and in an organised manner.
 
